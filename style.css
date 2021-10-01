@@ -1,0 +1,16 @@
+* {margin: 0%;}
+* {padding: 0%;}
+.nav-bar {
+    display: flex;
+    padding: 20;
+    background-color: #5C0C32;
+    color: white;
+}
+.nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
