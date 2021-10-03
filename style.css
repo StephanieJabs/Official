@@ -4,12 +4,13 @@
 .nav-bar {
     display: flex;
     padding: 20;
-    background-color: #5C0C32;
-    color: white;
+    background-color: #5F1238;
+    color: #F5DFBB;
+    justify-content: end;
 }
 .nav-bar a {
     float: left;
-    color: #f2f2f2;
+    color: #F5DFBB;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -19,44 +20,104 @@
 /* section one: Welcome Message formatting below */
 .welcome-message {
     display: flex;
-    background-color: #D1C19F;
+    background-color: #5F1238;
+    color: #F5DFBB;
 }
 .welcome-message div {
     flex-direction: row;
     padding: 1%;
     flex: 1;
 }
-.p {
-    display: flex;
-    height: 250px;
-    flex: 1;
-}
 img {
     width: 100%;
-    max-width: 500px;
+    max-width: 200px;
     max-height:100%
 }
 .column-one div {
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    align-items: center;
 }
+
 .four-image-picture {
     display:flex;
     flex-wrap: nowrap;
     flex: 1;
     justify-content: space-evenly;
-    background-color:#5C0C32;
+    align-items: center;
+    background-color:#F5DFBB;
 
 }
 .four-image-picture img {
-    width: 15%;
-    border: 10px solid #D1C19F;
-    background-color: #D1C19F;
+    width: 5%;
+    border: 1px solid #5F1238;
+    background-color: #F5DFBB;
+    border-radius: 25%;
+    flex-direction: column;
+    margin: 2%;
+    padding: 1.5%;
+}
+.four-image-picture-caption {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+    background-color: #F5DFBB;
+    color: #243B4A;
+    justify-content: space-evenly;
 }
 h2 {
+    color: #243B4A;
     text-align: center;
-    background-color: #5C0C32;
+}
+.section-mid {
+    background-color: #F5DFBB;
+    padding: 2%;
+}
+.blockquote {
+    padding: 5%;
+    background-color: #9E90A2;
+    text-align: center;
+    text-shadow: #f2f2f2;
+    color: #5F1238;
+}
+.section-four {
+    background-color: #F5DFBB;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.section-four div {
+    background-color: #5F1238;
+    color: #F5DFBB;
+    padding: 2%;
+}
+.call-to-action {
+    display: flex;
+    padding: 1%;
+    margin: 5%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+.hire-me a {
+    float: right;
+    color: #5F1238;
+    background-color: #9E90A2;
+    text-align: center;
+    padding: 25%;
+    padding-left: 50%;
+    padding-right: 50%;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 25%;  
+}
+.copywrite {
+    background-color: #5F1238;
     color: #f2f2f2;
-    pad: 10;
+    font-size: 8pt;
+    text-align: center;
+    padding: .5%;
 }
