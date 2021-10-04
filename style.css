@@ -37,22 +37,20 @@
     background-color: #5F1238;
     color: #F5DFBB;
     align-items: center;
+    flex-direction: row;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .welcome-message div {
-    flex-direction: row;
-    padding: 1%;
-    flex: 1;
+    flex: 1 1 0%;
 }
 img {
-    width: 50%;
-    padding-left: 10%;
-    padding-right: 5%;
+    width: 75%;
 }
-.column-one div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 10%;
+.column-one {
+    text-align: center;
+    flex: 2 1 0%;
 }
 
 .four-image-picture {
@@ -64,8 +62,9 @@ img {
     background-color:#F5DFBB;
 
 }
+
 .four-image-picture img {
-    width: 5%;
+    width: 100px;
     border: 1px solid #5F1238;
     background-color: #F5DFBB;
     border-radius: 25%;
@@ -73,14 +72,9 @@ img {
     margin: 2%;
     padding: 1.5%;
 }
-.four-image-picture-caption {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex: 1;
-    background-color: #F5DFBB;
+.figcaption {
+    text-align: center;
     color: #243B4A;
-    justify-content: space-evenly;
 }
 h2 {
     color: #243B4A;
